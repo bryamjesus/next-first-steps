@@ -1,3 +1,11 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Contact Page',
+  description: 'Page from contac',
+  keywords: ['Contact Page', 'Bryam', 'Contacto'],
+};
+
 export default function ContactPage() {
   return (
     <div className="flex flex-col items-center p-24">
