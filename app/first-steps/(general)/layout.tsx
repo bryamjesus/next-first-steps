@@ -1,4 +1,5 @@
-import { NavBar } from '@/components/first-steps';
+import { NavBar } from "@/components";
+
 
 export default function GeneralLayout({
   children,
